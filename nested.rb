@@ -59,13 +59,6 @@ def dennis_ritchies_language
      return programmer_hash[:dennis_ritchie][:languages].join(" and ")
 end
 
-describe "#adding_matz" do 
-    it "operates on the programmer_hash and adds a key/value pair to the top level of the hash, returning the newly-added-to hash" do 
-      expect(adding_matz.keys).to include(:yukihiro_matsumoto)
-    end
-  end
-  person["hometown"] = "Massena, NY"
-
 
 def adding_matz
 # add the following information to the top level of programmer_hash
@@ -89,8 +82,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-     programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => 
-    
+     programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
 end
 
 def changing_alan
