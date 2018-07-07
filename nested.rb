@@ -125,9 +125,5 @@ def adding_to_dennis
         }
      }
      programmer_hash[:dennis_ritchie][:languages].push("Assembly")
-     return 
-
+     return programmer_hash
 end
-
- it "operates on the programmer_hash and adds 'Assembly' to Dennis Ritchie's languages, returning the newly-added-to-hash" 
- 
