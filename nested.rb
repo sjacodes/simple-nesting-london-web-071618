@@ -27,6 +27,9 @@ def hopper
 
 end
 
+instructors = flatiron_school[:instructors]
+# => ["Avi", "Jeff", "Rose"]
+
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 	
