@@ -39,6 +39,12 @@ def alan_kay_is_known_for
      return programmer_hash[:alan_kay][:known_for]
 end
 
+  describe "#dennis_ritchies_language" do 
+    it "operates on the programmer_hash and returns the value of Dennis Ritchie's language as a string" do 
+      expect(dennis_ritchies_language).to eq("C")
+    end
+  end
+  
 def dennis_ritchies_language
 	programmer_hash = 
  		{
@@ -55,6 +61,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+     return 
 end
 
 def adding_matz
