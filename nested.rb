@@ -64,6 +64,8 @@ describe "#adding_matz" do
       expect(adding_matz.keys).to include(:yukihiro_matsumoto)
     end
   end
+  person["hometown"] = "Massena, NY"
+
 
 def adding_matz
 # add the following information to the top level of programmer_hash
