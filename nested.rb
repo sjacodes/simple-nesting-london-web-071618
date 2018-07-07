@@ -1,10 +1,4 @@
-escribe "nested hash" do 
-  describe "#hopper" do 
-    it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
-      expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
 
-    end
-  end
   
 def hopper
 	programmer_hash = 
@@ -25,8 +19,6 @@ def hopper
      return programmer_hash[:grace_hopper]
 end
 
-instructors = flatiron_school[:instructors]
-# => ["Avi", "Jeff", "Rose"]
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
